@@ -9,7 +9,7 @@ function ChatBox() {
       <Chat>
         <Box>
           {chat.map((el, i) => (
-            <Message key={i} $idenity={false}>
+            <Message key={i} $idenity={true}>
               <p>{el}</p>
             </Message>
           ))}
